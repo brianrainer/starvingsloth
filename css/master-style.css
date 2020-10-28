@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(to bottom, #ffd5cd, violet);
+  text-align: center;
+  font-size: 1.75em;
+  color: #060930;
+}
+
+h1, h3 {
+  color: #333456;
+}
+
+hr {
+  border: none;
+  border-top: dotted #fcf1f1;
+  border-width: 0.35em;
+  width: 70%;
+}
+
+img {
+  height: 30em;
+}
+
+ul, ol {
+  padding: 0;
+  list-style-position: inside;
+}
+
+table {
+  margin: auto;
+}
+
+table td {
+  text-align: right;
+  padding-right: 1em;
+}
+
+table td + td {
+  text-align: left;
+} 
