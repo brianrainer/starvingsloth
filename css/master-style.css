@@ -1,8 +1,13 @@
+html {
+  min-height: 100%;
+}
+
 body {
   background-image: linear-gradient(to bottom, #ffd5cd, violet);
   text-align: center;
   font-size: 1.75em;
   color: #060930;
+  min-height: 100%;
 }
 
 h1, h3 {
@@ -14,10 +19,6 @@ hr {
   border-top: dotted #fcf1f1;
   border-width: 0.35em;
   width: 70%;
-}
-
-img {
-  height: 30em;
 }
 
 ul, ol {
@@ -37,3 +38,10 @@ table td {
 table td + td {
   text-align: left;
 } 
+
+/* class */
+.sloth {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
